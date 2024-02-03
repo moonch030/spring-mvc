@@ -13,7 +13,7 @@ import org.springframework.util.StreamUtils;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-@WebServlet(name = "RequestBodyJsonServlet", urlPatterns = "/request-body-json")
+@WebServlet(name = "requestBodyJsonServlet", urlPatterns = "/request-body-json")
 public class RequestBodyJsonServlet extends HttpServlet {
 
     private ObjectMapper objectMapper = new ObjectMapper(); //jackson 라이브러리를 사용해야 JSON 결과를 파싱해서 사용할 수 있는 자바 객체로 변환 가능

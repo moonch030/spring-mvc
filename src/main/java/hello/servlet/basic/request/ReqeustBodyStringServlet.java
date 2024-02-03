@@ -11,7 +11,7 @@ import org.springframework.util.StreamUtils;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-@WebServlet(name = "ReqeustBodyStringServlet",urlPatterns = "/request-body-string")
+@WebServlet(name = "reqeustBodyStringServlet",urlPatterns = "/request-body-string")
 public class ReqeustBodyStringServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
